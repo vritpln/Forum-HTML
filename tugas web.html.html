@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form HTML</title>
+</head>
+<body>
+<h3>Form HTML</h3>
+
+<form action="" method="POST">
+<table>
+    <tr>
+        <td>Nama</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td>NIM</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td>Jenis Kelamin</td>
+        
+        <td>
+            <input type="radio" name="jk" value="Laki-laki">Laki-laki
+            <input type="radio" name="jk" value="Perempuan">Perempuan
+        </td>
+    </tr>
+    <tr>
+        <td>Tanggal Lahir</td>
+        <td><input type="date" name="tanggal_lahir"></td>
+    </tr>
+    <tr>
+        <td>Alamat</td>
+        <td><textarea></textarea>
+        </td>
+    <tr>
+        <td>No.Hp</td>
+        <td><input type="No.Hp"></td>
+    </tr>
+    <tr>
+        <td>Email</td>
+        <td><input type="text" name="email"></td>
+    </tr>
+    <tr>
+        <td>Kewarganegaraan</td>
+        <td>
+            <select name = "Negara">
+                <option>Indonesia</option>
+                <option>Negara Asing</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Foto</td>
+        <td><input class="file-upload-input" type="file" onchange="readURL(this)" accept="Image/*"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="submit"value="Simpan">
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
